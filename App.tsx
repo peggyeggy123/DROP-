@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
@@ -7,7 +6,6 @@ import GetTheDeck from './GetTheDeck';
 import Rules from './Rules';
 import AppSection from './AppSection';
 import Shop from './Shop';
-import GeminiAssistant from './GeminiAssistant';
 
 const App: React.FC = () => {
   return (
@@ -32,7 +30,6 @@ const App: React.FC = () => {
 
         <Rules />
         <Shop />
-        <GeminiAssistant />
         <AppSection />
 
         <section className="py-24 bg-primary-dark relative overflow-hidden m-4 sm:m-8 lg:m-12 rounded-[60px] shadow-[0_40px_80px_rgba(5,16,64,0.4)] border-8 border-accent">
