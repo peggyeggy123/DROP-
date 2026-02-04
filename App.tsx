@@ -7,6 +7,7 @@ import GetTheDeck from './components/GetTheDeck';
 import Rules from './components/Rules';
 import AppSection from './components/AppSection';
 import Shop from './components/Shop';
+import GeminiAssistant from './components/GeminiAssistant';
 
 const App: React.FC = () => {
   return (
@@ -34,6 +35,8 @@ const App: React.FC = () => {
         <Rules />
         
         <Shop />
+
+        <GeminiAssistant />
 
         <AppSection />
 
