@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import HybridIntro from './components/HybridIntro';
-import GetTheDeck from './components/GetTheDeck';
-import Rules from './components/Rules';
-import AppSection from './components/AppSection';
-import Shop from './components/Shop';
-import GeminiAssistant from './components/GeminiAssistant';
+import Header from './Header';
+import Hero from './Hero';
+import HybridIntro from './HybridIntro';
+import GetTheDeck from './GetTheDeck';
+import Rules from './Rules';
+import AppSection from './AppSection';
+import Shop from './Shop';
+import GeminiAssistant from './GeminiAssistant';
 
 const App: React.FC = () => {
   return (
